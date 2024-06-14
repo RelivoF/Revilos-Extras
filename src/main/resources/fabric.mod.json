@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "rev-extra",
+  "version": "${version}",
+  "name": "Revilos Extras",
+  "description": "Some QOL and extras",
+  "authors": [
+    "Revilo12"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rev-extra/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.revilo.revextra.client.RevilosExtrasClient"
+    ],
+    "main": [
+      "me.revilo.revextra.RevilosExtras"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
