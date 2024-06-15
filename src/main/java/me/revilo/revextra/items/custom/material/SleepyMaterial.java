@@ -1,5 +1,7 @@
 package me.revilo.revextra.items.custom.material;
 
+import com.mojang.datafixers.types.templates.Tag;
+import me.revilo.revextra.tags.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
@@ -22,12 +24,12 @@ public class SleepyMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 99;
+        return 999999999;
     }
 
     @Override
     public TagKey<Block> getInverseTag() {
-        return null;
+        return ModTags.STICK;
     }
 
     @Override

@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item TEST_ITEM = registerItem("tester", new Item(new Item.Settings()));
     public static final Item TEST = registerItem("test", new Item(new Item.Settings()));
-    public static ToolItem SLEEPY_HOE = new HoeItem(SleepyMaterial.INSTANCE, new Item.Settings());
+    public static ToolItem SLEEPY_HOE = new HoeItem(SleepyMaterial.INSTANCE, new Item.Settings().maxDamage(999999999).maxCount(1));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(RevilosExtras.MODID, name), item);
