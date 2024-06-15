@@ -12,9 +12,6 @@
   "icon": "assets/rev-extra/icon.png",
   "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "me.revilo.revextras.ExampleModDataGenerator"
-    ],
     "client": [
       "me.revilo.revextra.client.RevilosExtrasClient"
     ],
