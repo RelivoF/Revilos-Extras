@@ -16,6 +16,7 @@ public class ModItemGroups {
             .entries((context, entries) -> {
                 entries.add(ModItems.TEST_ITEM);
                 entries.add(ModItems.TEST);
+                entries.add(ModItems.SLEEPY_HOE);
             })
             .build();
 

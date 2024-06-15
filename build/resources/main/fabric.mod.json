@@ -18,6 +18,7 @@
     "main": [
       "me.revilo.revextra.RevilosExtras"
     ]
+
   },
   "depends": {
     "fabricloader": ">=0.15.11",
