@@ -20,22 +20,12 @@ public class ModItemGroups {
             })
             .build();
 
-    private static final ItemGroup REV_BETTERER = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.TEST))
-            .displayName(Text.translatable("itemGroup.rev-extra.revbetterer"))
-            .entries((context, entries) -> {
-                entries.add(ModItems.TEST_ITEM);
-                entries.add(ModItems.TEST);
-            })
-            .build();
-
 
     private static void registerModGroup(String name, ItemGroup itemGroup) {
         Registry.register(Registries.ITEM_GROUP, new Identifier(RevilosExtras.MODID, name), itemGroup);
     }
     public static void registerModGroups() {
         registerModGroup("revbetters", REV_BETTERS);
-        registerModGroup("revbetterer", REV_BETTERER);
         RevilosExtras.logger.info("registering Groups for " + RevilosExtras.MODID);
     }
 }

@@ -22,7 +22,7 @@ public class SleepyMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 999999;
+        return 99;
     }
 
     @Override
