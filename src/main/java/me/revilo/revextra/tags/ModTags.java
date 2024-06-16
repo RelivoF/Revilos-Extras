@@ -7,5 +7,5 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 public class ModTags {
-    public static final TagKey<Block> STICK = TagKey.of(RegistryKeys.BLOCK, new Identifier(RevilosExtras.MODID, "stick"));
+    public static final TagKey<Block> TAG = TagKey.of(RegistryKeys.BLOCK, new Identifier(RevilosExtras.MODID, "test_blocks"));
 }

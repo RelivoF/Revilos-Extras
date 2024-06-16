@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "rev-extra:test",
+    "rev-extra:testblock"
+  ]
+}
