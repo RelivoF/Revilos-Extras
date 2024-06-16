@@ -12,7 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block GOD_BLOCK = registerBlock("godblock",
+    public static final Block TEST_BLOCK = registerBlock("testblock",
+            new Block(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK)));
+
+    public static final Block TESST = registerBlock("test",
             new Block(AbstractBlock.Settings.copy(Blocks.NETHERITE_BLOCK)));
 
 

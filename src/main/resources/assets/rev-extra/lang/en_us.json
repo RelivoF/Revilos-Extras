@@ -1,4 +1,12 @@
 {
+
+
   "item.rev-extra.smacker": "Smacker",
+
+
+  "block.rev-extra.testblock": "Test Block",
+  "block.rev-extra.test": "Test",
+
+
   "itemGroup.rev-extra.revbetters": "Revilos Extras"
 }

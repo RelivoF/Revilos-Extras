@@ -16,6 +16,10 @@ public class ModItemGroups {
             .displayName(Text.translatable("itemGroup.rev-extra.revbetters"))
             .entries((context, entries) -> {
                 entries.add(ModItems.SMACKER);
+
+
+                entries.add(ModBlocks.TEST_BLOCK);
+                entries.add(ModBlocks.TESST);
             })
             .build();
 
