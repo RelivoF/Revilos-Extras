@@ -1,6 +1,7 @@
 package me.revilo.revextra.items;
 
 import me.revilo.revextra.RevilosExtras;
+import me.revilo.revextra.blocks.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -11,12 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     private static final ItemGroup REV_BETTERS = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModItems.TEST))
+            .icon(() -> new ItemStack(ModItems.SMACKER))
             .displayName(Text.translatable("itemGroup.rev-extra.revbetters"))
             .entries((context, entries) -> {
-                entries.add(ModItems.TEST_ITEM);
-                entries.add(ModItems.TEST);
-                entries.add(ModItems.SLEEPY_STICK);
+                entries.add(ModItems.SMACKER);
             })
             .build();
 

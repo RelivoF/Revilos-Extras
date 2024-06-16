@@ -1,5 +1,6 @@
 package me.revilo.revextra;
 
+import me.revilo.revextra.blocks.ModBlocks;
 import me.revilo.revextra.items.ModItemGroups;
 import me.revilo.revextra.items.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,6 +15,7 @@ public class RevilosExtras implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
         ModItemGroups.registerModGroups();
         logger.info("Loaded " + MODID);
     }

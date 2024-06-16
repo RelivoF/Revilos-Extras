@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "rev-extra:item/Stick"
-  }
-}
